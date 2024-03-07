@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.display input {
+    width: 100%;
+    height: 220px;
+    font-size: 6em;
+    text-align: right;
+    border: none;
+    background-color: #000000;
+    color: #333;
+}
+
+.wrapped {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.scientific {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.scientific button {
+    width: 180px;
+    height: 100px;
+}
